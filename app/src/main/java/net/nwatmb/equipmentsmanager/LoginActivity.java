@@ -1,5 +1,6 @@
 package net.nwatmb.equipmentsmanager;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -124,6 +125,7 @@ public class LoginActivity extends Activity{
     /**
      * Background Async Task to Get user info
      */
+    @SuppressLint("StaticFieldLeak")
     class LoadUserDetail extends AsyncTask<Void, Void, String> {
 
         /**
@@ -148,9 +150,9 @@ public class LoginActivity extends Activity{
             List<NameValuePair> params = new ArrayList<>();
             params.add(new BasicNameValuePair("name", name));
             params.add(new BasicNameValuePair("password",passwd));
-            Log.d("PARAMS", params.toString());
+//            Log.d("PARAMS", params.toString());
             JSONObject json = jsonParser.makeHttpRequest(url_user_detials, "GET", params);
-            Log.d("User Details", json.toString());
+//            Log.d("User Details", json.toString());
             try {
                 success = json.getInt(TAG_SUCCESS);
                 if (success == 1) {
@@ -178,7 +180,7 @@ public class LoginActivity extends Activity{
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            Log.d("PostExecuted", s);
+//            Log.d("PostExecuted", s);
             pDialog.dismiss();
 
         }
