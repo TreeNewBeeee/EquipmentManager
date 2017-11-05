@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">自动化数据室</string>
+
+    <!-- Activity_login-->
+    <string name="action_settings">Settings</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="btn_login">登陆</string>
+    <string name="copy_right">&#169;西北空管局技保中心自动化数据室</string>
+    <string name="title1">自动化数据室</string>
+    <string name="title2">备件管理平台</string>
+    <string name="correct">验证成功</string>
+    <string name="incorrect">验证失败</string>
+
+
+    <!-- Activity_system_pointer-->
+    <string name="btn_stuff_manager">自动化数据室综合事务管理系统</string>
+    <string name="btn_equipment_manager">自动化数据室备件管理平台</string>
+    <string name="title_activity_system_pointer">请选择要进入的系统</string>
+    <string name="title_activity_stuff_manager">综合事务管理系统</string>
+    <string name="title_activity_equipment_manager">备件管理平台</string>
+
+    <!-- Activity_Equipment_Manager-->
+    <string name="create_tag">添增备件</string>
+    <string name="edit_tag">编辑备件</string>
+    <string name="delete_tag">报废备件</string>
+    <string name="info_tag">备件信息</string>
+
+    <!-- Activity_Equipment_Create-->
+    <string name="tv_title_ID">设备识别号：</string>
+    <string name="tv_ID">测试代码</string>
+    <string name="tv_position" />
+    <string name="tv_title_brand">备件品牌：</string>
+    <string name="hint_brand">请输入备件品牌</string>
+    <string name="tv_title_type">备件型号：</string>
+    <string name="hint_type">请输入备件型号</string>
+    <string name="tv_title_SN">设备S/N码：</string>
+    <string name="hint_SN">请输入S/N码</string>
+    <string name="tv_title_system">设备所属系统：</string>
+    <string name="hint_system">请选择...</string>
+    <string name="tv_title_position">当前存放位置：</string>
+    <string name="hint_position">请输入当前存储位置</string>
+    <string name="tv_title_name">备件名称：</string>
+    <string name="hint_name">请输入备件名称</string>
+    <string name="tv_title_time_input">入库时间：</string>
+    <string name="tv_title_time_in_use">投用时间：</string>
+    <string name="tv_title_last_oprater">最后经办人：</string>
+    <string name="tv_last_operater" />
+    <string name="tv_title_test_log">测试记录： </string>
+    <string name="hint_last_operater" />
+    <string name="tv_title_remark">备注信息：</string>
+    <string name="hint_remark">请输入...</string>
+    <string name="save_item">保存至本地</string>
+    <string name="update_items">上传至服务器</string>
+    <string name="hint_time_input">请输入入库时间</string>
+    <string name="full_num">缓存已满，保存失败，请及时上传备件数据</string>
+    <string name="loading">努力登录中......</string>
+
+
+</resources>

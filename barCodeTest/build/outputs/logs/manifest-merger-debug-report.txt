@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:6:5-31
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:8:5-30
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:7:5-28
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+	android:targetSdkVersion
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:5-44
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:10:15-41
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.CAMERA
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:13:22-62
+uses-feature#android.hardware.camera
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:15:19-67
+application
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:17:5-35:19
+	android:label
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:18:9-45
+activity#com.ericssonlabs.BarCodeTestActivity
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:22:9-26:20
+	android:label
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:23:13-48
+activity#com.zxing.activity.CaptureActivity
+ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:28:9-34:20
+	android:screenOrientation
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:31:13-49
+	android:windowSoftInputMode
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:33:13-60
+	android:configChanges
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:29:13-63
+	android:theme
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:32:13-71
+	android:name
+		ADDED from F:\AndroidStudioProjects\EquipmentManager\barCodeTest\src\main\AndroidManifest.xml:30:13-62

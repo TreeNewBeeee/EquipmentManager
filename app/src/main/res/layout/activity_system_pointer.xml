@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ivory"
+    tools:context="net.nwatmb.equipmentsmanager.SystemPointer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        >
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_stuff_manager"
+            android:id="@+id/btn_stuff_manager"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_equipment_manager"
+            android:id="@+id/btn_equipment_manager"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy_right"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        />
+
+</LinearLayout>
