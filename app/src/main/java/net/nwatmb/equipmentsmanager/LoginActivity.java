@@ -152,13 +152,13 @@ public class LoginActivity extends Activity{
             params.add(new BasicNameValuePair("password",passwd));
 //            Log.d("PARAMS", params.toString());
             JSONObject json = jsonParser.makeHttpRequest(url_user_detials, "GET", params);
-//            Log.d("User Details", json.toString());
+            Log.d("User Details", json.toString());
             try {
                 success = json.getInt(TAG_SUCCESS);
                 if (success == 1) {
                     JSONArray userOBJ = json.getJSONArray(TAG_USER);
                     JSONObject user = userOBJ.getJSONObject(0);
-//                    Log.d("Database Password", user.getString(TAG_PASSWD));
+//                    Log.d("Database Password", user.getString("usernameCH"));
                     return user.getString(TAG_AUTHORITY);
                 } else {
                     JSONArray userOBJ = json.getJSONArray(TAG_USER);

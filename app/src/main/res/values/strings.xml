@@ -7,7 +7,7 @@
     <string name="password_hint">请输入密码</string>
     <string name="btn_login">登陆</string>
     <string name="copy_right">&#169;西北空管局技保中心自动化数据室</string>
-    <string name="title1">自动化数据室</string>
+    <string name="title1">西北空管局技术保障中心</string>
     <string name="title2">备件管理平台</string>
     <string name="correct">验证成功</string>
     <string name="incorrect">验证失败</string>
@@ -15,7 +15,7 @@
 
     <!-- Activity_system_pointer-->
     <string name="btn_stuff_manager">自动化数据室综合事务管理系统</string>
-    <string name="btn_equipment_manager">自动化数据室备件管理平台</string>
+    <string name="btn_equipment_manager">技保中心备件管理平台</string>
     <string name="title_activity_system_pointer">请选择要进入的系统</string>
     <string name="title_activity_stuff_manager">综合事务管理系统</string>
     <string name="title_activity_equipment_manager">备件管理平台</string>
@@ -55,6 +55,26 @@
     <string name="hint_time_input">请输入入库时间</string>
     <string name="full_num">缓存已满，保存失败，请及时上传备件数据</string>
     <string name="loading">努力登录中......</string>
+    <string name="gettingData">请耐心等待</string>
+    <string name="xianatc">自动化数据室综合事务管理系统</string>
+    <string name="spare_division">备件所属部门：</string>
+    <string name="spare_house">备件存储库房：</string>
+    <string name="spare_system">备件所属系统：</string>
+    <string name="spare_type">备件类型：</string>
+    <string name="operator">最后经手人：</string>
+    <string name="spare_name">备件名称：</string>
+    <string name="label">备件标签：</string>
+    <string name="model">备件型号：</string>
+    <string name="sn">SN：</string>
+    <string name="seller">供货商：</string>
+    <string name="manufacture">生产厂家：</string>
+    <string name="price">采购价格：</string>
+    <string name="orderDate">采购日期：</string>
+    <string name="testPeriod">测试周期：</string>
+    <string name="location">备件摆放位置：</string>
+    <string name="quantity">数量（耗材）：</string>
+    <string name="createDate">录入时间：</string>
+    <string name="updateDate">更新时间：</string>
 
 
 </resources>

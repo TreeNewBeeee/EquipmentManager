@@ -134,14 +134,14 @@ public class EquipmentManager extends ActionBarActivity implements ActionBar.Tab
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
             Fragment fg = null;
+            Bundle data = new Bundle();
+            data.putString("USER_NAME",USER_NAME);
             switch (position){
                 case 0:
 //                    Bundle args = new Bundle();
 //                    args.putString("USER_NAME", "username");
 //                    getFragmentManager().findFragmentById(R.id.fragment_create).setArguments(args);
                     fg =  new EquipmentCreate();
-                    Bundle data = new Bundle();
-                    data.putString("USER_NAME",USER_NAME);
                     fg.setArguments(data);
                     break;
                 case 1:
@@ -152,6 +152,7 @@ public class EquipmentManager extends ActionBarActivity implements ActionBar.Tab
                     break;
                 case 3:
                     fg =   new EquipmentInfo();
+                    fg.setArguments(data);
                     break;
 
             }

@@ -5,26 +5,30 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
 public class StuffManagerActivity extends Activity {
 
     public static final String Extra_User_Name = "net.nwatmb.equipmentsmanager.username";
     private WebView mWebView;
-    private String mUserName;
+    public String mUserName;
 
     @Override
     protected void onCreate(Bundle  savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stuff_manager);
 
-        mWebView = new WebView(this);
-
-        //mWebView.getSettings().getJavaScriptEnabled(true);
-
-        mWebView.loadUrl("http://www.xianatc.com/");
-
-        setContentView(mWebView);
+        mWebView = (WebView) findViewById(R.id.webView);
+        mWebView.getSettings().getJavaScriptEnabled();
+        mWebView.loadUrl("http://www.hupu.com/");
+        mWebView.setWebViewClient(new WebViewClient(){
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                view.loadUrl(url);
+                return super.shouldOverrideUrlLoading(view, url);
+            }
+        });
 
         mUserName = getIntent().getStringExtra(Extra_User_Name);
     }

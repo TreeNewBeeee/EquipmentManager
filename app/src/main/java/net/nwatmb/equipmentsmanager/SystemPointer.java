@@ -27,7 +27,7 @@ public class SystemPointer extends Activity {
         mSystem_2 = (Button) findViewById(R.id.btn_equipment_manager);
 
         mUserName = getIntent().getStringExtra(Extra_User_Name);
-        Toast.makeText(getApplicationContext(),mUserName,Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(),mUserName,Toast.LENGTH_SHORT).show();
 
         mSystem_1.setOnClickListener(new View.OnClickListener() {
             @Override

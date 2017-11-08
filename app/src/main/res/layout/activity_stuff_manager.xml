@@ -5,6 +5,17 @@
     android:orientation="vertical"
     android:background="@color/ivory"
     tools:context="net.nwatmb.equipmentsmanager.StuffManagerActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xianatc"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5sp"
+        />
 
     <WebView
         android:layout_width="match_parent"

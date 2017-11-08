@@ -336,7 +336,7 @@ public class EquipmentCreate extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
+        // 二维码扫描后将scrollView设为visible，相机button设为gone
         if (requestCode == 999) {
             String result = data.getExtras().getString("result");
 //            Toast.makeText(getActivity(),result,Toast.LENGTH_SHORT).show();
